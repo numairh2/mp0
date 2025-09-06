@@ -2,18 +2,34 @@
 body {
     max-width: auto;
     max-height: auto;
+    background-color: white;
+    font-family: Arial, sans-serif;
 }
 
 .container {
     width: 50%;
-    height: 100%;
     background-color: beige;
     margin: 0 auto;
+    padding: 20px;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
 }
 
 .container h1 {
     text-align: center;
+}
+
+.container h2 {
+    margin: 10px 0;
+    font-size: 1.1em;
+    font-weight: normal;
 }
 
 .container img {
